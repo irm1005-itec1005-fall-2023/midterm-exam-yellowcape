@@ -47,29 +47,37 @@ body {
   border-radius: 75%;
 }
 
-.coffee {
-  align-items: flex-start;
-  max-height: 60%;
-  width: 100%;
+
+/*
+.vehicle-sedan {
+  background-color: #3e38bf;
+}
+*/
+.coffee-info {
+  background-color: #ffffff;
+  border-radius: 3rem;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 500px;
+
+}
+
+.coffee {
+  align-items: top;
+  display: flex;
   flex-wrap: wrap;
   border-radius: 2rem 2rem 0rem 0rem;
+  height: 200px;
+  width: 500px;
 }
-
-.coffee-info {
-  display: flex;
-  justify-content:flex-start
-  border-radius: 10%;
-}
-
-
 
 h2 {
   align-items: right;
   color: #5a2f13;
-  padding-top: 5rem;
+  padding-top: 1rem
 }
 
 p {
@@ -79,32 +87,22 @@ p {
   padding-right: 1rem;
 }
 
+.buy-now {
+  background-color: #5a2f13;
+  height: 3rem;
+  width: fit-content;
+  color: white;
+  width: 300px;
+  border-radius: 3rem;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+
+  padding: 1rem;
+  align-items: center;
+  margin-top: 5rem;
+}
 
 .btn{
-  margin-top: 1rem;
-  background-color: #3e38bf;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 3rem;
-  text-decoration: none;
-}
 
-/*
-.vehicle-sedan {
-  background-color: #3e38bf;
-}
-*/
-
-.coffee-info:nth-child(1) {
-  background-color: #ffffff;
-  border-radius: 3rem;
-  width: 60%;
-  height: 700px;
-  align-items: top;
-  padding-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-grow: 1;
 }
