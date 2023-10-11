@@ -43,13 +43,14 @@ body {
 
   margin-left: 5rem;
   margin-right: 5rem;
-  padding: 3rem;
+  padding: 0rem;
   border-radius: 75%;
 }
 
 .coffee {
-  align-items: stretch;
-  max-height: 1rem
+  align-items: flex-start;
+  max-height: 60%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -57,10 +58,10 @@ body {
   border-radius: 2rem 2rem 0rem 0rem;
 }
 
-.vehicles-container {
+.coffee-info {
   display: flex;
-  border-radius: 0%
-  flex-grow: 1;
+  justify-content:flex-start
+  border-radius: 10%;
 }
 
 
@@ -78,10 +79,6 @@ p {
   padding-right: 1rem;
 }
 
-.read-more {
-  margin-top: 1rem;
-  padding: 0.5rem;
-}
 
 .btn{
   margin-top: 1rem;
@@ -98,15 +95,15 @@ p {
 }
 */
 
-.vehicle:nth-child(1) {
+.coffee-info:nth-child(1) {
   background-color: #ffffff;
   border-radius: 3rem;
   width: 60%;
-  max-height: 80%;
-  align-items: center;
+  height: 700px;
+  align-items: top;
   padding-bottom: 3rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   flex-grow: 1;
