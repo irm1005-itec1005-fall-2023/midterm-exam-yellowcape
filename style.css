@@ -32,6 +32,60 @@ html {
   font-size: 1.0rem;
 }
 
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #db9c73;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 3rem;
+  border-radius: 75%;
+}
+
+.coffee {
+  margin-bottom: 2rem;
+  align-items: stretch;
+}
+
+.vehicles-container {
+  display: flex;
+  border-radius: 50%;
+  width: 75%;
+}
+
+.vehicle {
+  background-color: blue;
+  padding: 2.5rem;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.read-more {
+  margin-top: 4rem;
+}
+
+.btn{
+  margin-top: 3rem;
+  background-color: #3e38bf;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  text-decoration: none;
+}
+
+/*
+.vehicle-sedan {
+  background-color: #3e38bf;
+}
+*/
+
+.vehicle:nth-child(1) {
+  background-color: #ffffff;
 }
