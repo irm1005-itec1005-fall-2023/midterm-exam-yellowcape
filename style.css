@@ -32,6 +32,73 @@ html {
   font-size: 1.0rem;
 }
 
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #db9c73;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 0rem;
+  border-radius: 75%;
+}
+
+.coffee-info {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 650px;
+  width: 400px;
+
+}
+
+.coffee {
+  align-items: top;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2rem 2rem 0rem 0rem;
+  height: 300px;
+  width: 500px;
+}
+
+h2 {
+  align-items: right;
+  color: #5a2f13;
+  padding: 2rem
+}
+
+p {
+  align-items: start;
+  color: #5a2f13;
+  padding: 0.5rem;
+  
+}
+
+h3 {
+align-items: right;
+  color: #93542a;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+
+}
+
+.buy-now {
+  background-color: #5a2f13;
+  height: 3rem;
+  width: fit-content;
+  color: white;
+  width: 300px;
+  border-radius: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  align-items: center;
 }
