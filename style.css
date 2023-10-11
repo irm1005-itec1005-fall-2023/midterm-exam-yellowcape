@@ -48,31 +48,43 @@ body {
 }
 
 .coffee {
-  margin-bottom: 2rem;
   align-items: stretch;
+  max-height: 1rem
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  border-radius: 2rem 2rem 0rem 0rem;
 }
 
 .vehicles-container {
   display: flex;
-  border-radius: 50%;
-  width: 75%;
+  border-radius: 0%
+  flex-grow: 1;
 }
 
-.vehicle {
-  background-color: blue;
-  padding: 2.5rem;
-}
+
 
 h2 {
-  text-transform: uppercase;
+  align-items: right;
+  color: #5a2f13;
+  padding-top: 5rem;
+}
+
+p {
+  align-items: start;
+  color: #5a2f13;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .read-more {
-  margin-top: 4rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
 }
 
 .btn{
-  margin-top: 3rem;
+  margin-top: 1rem;
   background-color: #3e38bf;
   color: white;
   padding: 0.5rem 1rem;
@@ -88,4 +100,14 @@ h2 {
 
 .vehicle:nth-child(1) {
   background-color: #ffffff;
+  border-radius: 3rem;
+  width: 60%;
+  max-height: 80%;
+  align-items: center;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
